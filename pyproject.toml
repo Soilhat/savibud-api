@@ -1,0 +1,15 @@
+[project]
+name = "savibud api"
+
+[tool.black]
+force-exclude = "env/"
+
+[tool.isort]
+profile = "black"
+skip_glob = ["env/*"]
+
+[tool.pylint]
+disable=["missing-module-docstring"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=. --cov-report html --cov-report xml"
