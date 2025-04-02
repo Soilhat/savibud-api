@@ -1,6 +1,6 @@
-"fastapi[standard]"
+fastapi[standard]
 pyjwt
-"passlib[bcrypt]"
+passlib[bcrypt]
 black
 isort
 pytest

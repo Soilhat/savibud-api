@@ -1,5 +1,8 @@
 [project]
 name = "savibud api"
+dependencies = [
+  "black",
+]
 
 [tool.black]
 force-exclude = "env/"
